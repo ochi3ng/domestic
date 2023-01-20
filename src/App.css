@@ -1,0 +1,349 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(243, 226, 226);
+
+}
+.services-d{
+  text-shadow: 5px 0px 24px rgba(0, 0, 0, 1);
+  text-decoration-line:underline ;
+  
+
+  
+  
+}
+
+.nav-bar{
+  background-color: rgb(247, 243, 243);
+}
+.our-product{
+  list-style: none;
+  transition: 2s ease-out;
+  display: flex;
+}
+.our-product li {
+cursor: pointer;
+padding: 5px;
+padding-bottom: 0px;
+border-radius: 10px;
+}
+.our-product li:hover{
+color: green;
+font-size: x-large;
+display: block;
+}
+
+
+.pop-item{
+  background-color: green;
+  position: absolute;
+ 
+
+}
+.list-div{
+  background-color: rgb(227, 227, 238);
+}
+.list-div li{
+  list-style: none;
+  font-size: 25px;
+}
+.more-div{
+  background-color: white;
+}
+.pop-up{
+position: fixed;
+left: 45%;
+width: 100%;
+
+display: none;
+border-radius: 20px;
+}
+.services:hover .pop-up{
+  display: block;
+}
+.pop-up:hover{
+display: block;
+}
+.landing-banner h1{
+  font-size: 9vmin;
+  font-weight: 800;
+
+}
+.landing-banner p{
+font-size: 3vmin;
+padding: 0px;
+margin: 0px;
+}
+.landing-banner {
+  background-color: rgb(243, 226, 226);
+  
+}
+
+.p-div{
+  padding: 20px 0px;
+  
+}
+
+
+.btn-start{
+  background-color: rgb(69, 185, 69);
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.btn-watch{
+  border: none;
+  font-size: 20px;
+  background-color: transparent;
+  color: green;
+
+}
+.outer{
+  margin-top: 20px;
+}
+/* service page styles */
+.service-page{
+  background-color: whitesmoke;
+}
+.service-item-d{
+  border-radius: 10px;
+}
+
+.service-item-d :hover .item-btn{
+width: 90px;
+display: inline;
+}
+
+.service-item p{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.item-btn{
+  border:none;
+  display: none;
+  background-color: transparent;
+  transition: 2s;
+  transform: 2s scale(0.5);
+
+
+}
+.item-btn-div{
+
+  border-radius: 10px;
+  width: fit-content;
+  transition: 2s;
+ 
+}
+
+.advert-div{
+  background-color: rgb(218, 245, 255);
+}
+.advert-div-empty{
+  min-height: 70px;
+}
+
+.partners-div{
+  background-color: white;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.customer-name{
+  font-size: 25px;
+}
+.customer-review{
+  font-size: 20px;
+}
+.customer-handle{
+  font-size: 17px;
+  color: green;
+}
+.customer-outer{
+  background-color: whitesmoke;
+}
+.customer-section{
+  background-color: white;
+}
+.quiz{
+  background-color: rgb(241, 255, 254);
+}
+.tooglebtn{
+  cursor: pointer;
+ 
+}
+
+.playstore{
+  background-color: rgb(247, 241, 241);
+
+  padding-top: 230px;
+  padding-bottom: 0px;
+
+
+}
+
+.play-row{
+  min-height: 50vh;
+  border-radius: 30px;
+  overflow: hidden;
+  flex-wrap: wrap;
+ 
+}
+.play-phone{
+ /* display: inline;
+ position: relative;
+ left: 50%;
+ bottom: 450px; */
+ position: absolute;
+
+
+ 
+}
+.p-phone{
+
+
+}
+.hello{
+  background-color: red;
+  position: absolute;
+  min-height: 250px;
+  margin-top: 10px;
+  width: 100%;
+  top: 50px;
+}
+.project-footer{
+min-height: 250px;
+position: relative;
+
+}
+.f-main{
+  background-color: rgb(247, 242, 244);
+}
+.p-footer{
+position: absolute;
+background-color: whitesmoke;
+top: 90%;
+min-height: 100px;
+width: 100%;
+}
+
+.social a{
+  font-size: 30px;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+@media screen and (max-width: 800px) {
+  .get-startedpp {
+    background-color: rgb(46, 196, 241);
+  }
+  .play-phone{
+     display: none; 
+  }
+}
+
+/* mobile screen navbar styling */
+.nav-icon{
+  display: none;
+}
+.mob-nav {
+  display: none;
+}
+.mob{
+  list-style: none;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  transform: 2s ease ;
+}
+.mob-nav, .leftp{
+  display: none;
+  transform: 2s ease ;
+}
+@media screen and (max-width :780px) {
+  .our-product{
+    display: none;
+  }
+
+  .nav-icon{
+    display: inline;
+  }
+  .mob-nav{
+    list-style: none;
+    display: inline;
+    position: absolute;
+    top: 20%;
+    left: -800px;
+    width: 70%;
+    height: 100vh;
+
+   
+  }
+  .leftp{
+    list-style: none;
+    display: inline;
+    position: absolute;
+    top: 20%;
+    left: 0px;
+    width: 70%;
+    height: 100vh;
+  }
+  .landind-left{
+    min-height: 90vh;
+    padding-top: 25%;
+    text-align: center;
+   
+  }
+
+  .right-core{
+    display: none;
+  }
+}
+
+
+
+/* services styling */
+
+.list-style{
+  cursor: pointer;
+}
+.list-style h5{
+ 
+  padding: 5px;
+
+}
+
+.list-style h5:hover,.leftp h3:hover{
+  background-color: whitesmoke;
+  transition: 1s;
+  cursor: pointer;
+}
+
+
+
+/* core services section */
+
+.core{
+  min-height: 90vh;
+  align-items: center;
+}
+.core h1{
+  font-weight: 600;
+ 
+  font-family: 'Times New Roman', Times, serif;
+}
+.core h3{
+  font-weight: 400;
+}
+
+.core-core{
+  min-height: 90vh;
+  background-color:rgb(253, 251, 251);
+}
